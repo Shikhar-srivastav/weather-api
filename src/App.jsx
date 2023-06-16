@@ -27,7 +27,7 @@ function App() {
 			{ result ? (
 					<div className="card overflow-hidden" style={{ width: 300 }}>
 						<div className="card-body bg-info-subtle">
-							<h5 className="card-title">{result.location.name}, {result.location.name}</h5>
+							<h5 className="card-title">{result.location.name}, {result.location.country}</h5>
 							<p className="card-subtitle text-secondary mb-3">{result.location.lat}, {result.location.lon}</p>
 							<p className="card-subtitle mb-1">Humidity: {result.weather.relHumidity}</p>
 							<h4 className="card-text text-capitalize">
