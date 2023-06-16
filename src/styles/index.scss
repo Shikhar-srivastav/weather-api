@@ -1,0 +1,13 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+	font-family: Work Sans;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.text-secondary {
+	font-size: 12px;
+}
